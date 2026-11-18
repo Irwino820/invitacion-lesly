@@ -143,7 +143,7 @@ El archivo `index.html` contiene el título, la descripción y las etiquetas par
 - `public/og-boda.png` (imagen estática de 1200 × 630)
 - `public/favicon.svg` (monograma)
 
-La imagen social incluida aún corresponde al diseño de ejemplo. Reemplázala con los nombres y la fecha reales.
+La imagen social incluida ya usa los nombres, la fecha y la sede reales (`public/og-boda.png`, 1200 × 630). Si vuelven a cambiar, regenérala con el mismo encuadre y actualiza también las etiquetas `og:*` y `twitter:*`.
 
 La URL absoluta se inyecta en tiempo de build con `VITE_SITE_URL`:
 
@@ -204,7 +204,7 @@ vite.config.ts  Inyección de VITE_SITE_URL
 2. Verifica que el enlace de Google Calendar abra el evento en la fecha y hora correctas.
 3. Revisa el itinerario (`schedule`) y la nota del día (`dayNote`).
 4. Si reactivas la galería, sustituye las fotos de referencia de `public/photos/` por fotografía propia.
-5. Actualiza `public/og-boda.png` con los nombres y la fecha reales.
+5. Si cambian los nombres, la fecha o la sede, regenera `public/og-boda.png` (1200 × 630) y revisa las etiquetas sociales de `index.html`.
 6. Configura `VITE_SITE_URL` con el dominio final.
 7. Prueba la música en un teléfono real: debe empezar al abrir el sobre y poder silenciarse con el botón flotante.
 8. Verifica la vista previa del enlace en WhatsApp y en las redes que uses.
