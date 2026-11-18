@@ -97,7 +97,7 @@ export const weddingConfig: WeddingConfig = {
     monogram: 'L & R',
   },
   wedding: {
-    dateISO: '2026-12-21T16:00:00-06:00',
+    dateISO: '2026-12-21T17:00:00-06:00',
     weekday: 'Lunes',
     dateLabel: '21 de diciembre de 2026',
     dateShort: '21 · 12 · 26',
@@ -106,7 +106,7 @@ export const weddingConfig: WeddingConfig = {
     cardYear: '2026',
     cardDateLabel: '21 · Diciembre · 2026',
     yearRoman: 'MMXXVI',
-    timeLabel: '4:00 p.\u00A0m.',
+    timeLabel: '5:00 p.\u00A0m.',
     city: 'Carboneras, Tepezalá, Aguascalientes',
     cityShort: 'Carboneras, Tepezalá',
     quote:
@@ -123,7 +123,7 @@ export const weddingConfig: WeddingConfig = {
     mapUrl:
       'https://www.google.com/maps/search/?api=1&query=Alvaro+Obregon+54+Carboneras+Tepezala+Aguascalientes',
     calendarUrl:
-      'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda%20civil%20de%20Lesly%20%26%20Rogelio&dates=20261221T220000Z/20261222T030000Z&details=Boda%20civil%204%3A00%20p.%20m.%20%C2%B7%20Casa%20del%20novio&location=%C3%81lvaro%20Obreg%C3%B3n%2054%2C%20Carboneras%2C%20Tepezal%C3%A1%2C%20Aguascalientes',
+      'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda%20civil%20de%20Lesly%20%26%20Rogelio&dates=20261221T230000Z/20261222T040000Z&details=Boda%20civil%205%3A00%20p.%20m.%20%C2%B7%20Casa%20del%20novio&location=%C3%81lvaro%20Obreg%C3%B3n%2054%2C%20Carboneras%2C%20Tepezal%C3%A1%2C%20Aguascalientes',
     note: 'La casa está sobre la calle Álvaro Obregón, en el corazón de Carboneras. Si necesitas apoyo con la ubicación, escríbenos.',
   },
   audio: {
@@ -133,11 +133,11 @@ export const weddingConfig: WeddingConfig = {
   },
   celebration: {
     label: 'Boda civil',
-    time: '4:00 p.\u00A0m.',
+    time: '5:00 p.\u00A0m.',
   },
   schedule: [
-    { time: '3:50', label: 'Llegada' },
-    { time: '4:00', label: 'Boda civil' },
+    { time: '4:50', label: 'Llegada' },
+    { time: '5:00', label: 'Boda civil' },
   ],
   dayNote:
     'Te pedimos llegar unos minutos antes: la ceremonia civil comenzará puntual.',
@@ -172,6 +172,6 @@ export const weddingConfig: WeddingConfig = {
   seo: {
     title: 'Lesly & Rogelio · Boda civil',
     description:
-      'Lesly y Rogelio te invitan a celebrar su boda civil el lunes 21 de diciembre de 2026 a las 4:00 p.\u00A0m. en Carboneras, Tepezalá, Aguascalientes.',
+      'Lesly y Rogelio te invitan a celebrar su boda civil el lunes 21 de diciembre de 2026 a las 5:00 p.\u00A0m. en Carboneras, Tepezalá, Aguascalientes.',
   },
 };
