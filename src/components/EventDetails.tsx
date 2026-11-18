@@ -14,7 +14,7 @@ const EventDetails = () => {
           </p>
           <div className="day__title-row">
             <h2 id="day-title" className="display display--lg" data-split>
-              Nuestra <em>celebración</em>
+              Nuestra <em>boda civil</em>
             </h2>
             <p className="day__date" data-reveal>
               <span>{wedding.weekday}</span>

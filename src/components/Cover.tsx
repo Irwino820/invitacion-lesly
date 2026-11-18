@@ -189,7 +189,7 @@ const Cover = ({ onEnter, onExited }: CoverProps) => {
             <div className="cover__card-content">
               <span className="cover__card-kicker">Invitación privada</span>
               <span className="cover__card-monogram">{couple.monogram}</span>
-              <p className="cover__card-eyebrow">Nos casamos</p>
+              <p className="cover__card-eyebrow">Nos casamos por el civil</p>
               <p id="cover-title" className="cover__card-names">
                 <span>{couple.firstName}</span>
                 <span className="cover__card-amp">&amp;</span>

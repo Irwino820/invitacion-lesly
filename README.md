@@ -2,7 +2,7 @@
 
 Invitación de una sola página construida con Vite, React, TypeScript y GSAP. El diseño es editorial y sobrio: marfil cálido, verde bosque, dorado mate, tipografía Bodoni Moda + Jost, líneas finas y movimiento contenido. La experiencia abre con un sobre de papel que se sella con cera y da paso al hero; no hay barra de navegación.
 
-Evento: **lunes 21 de diciembre de 2026, 5:00 p. m.**, celebración en la casa del novio, Álvaro Obregón #54, Carboneras, Tepezalá, Aguascalientes. La invitación anuncia únicamente la celebración.
+Evento: **lunes 21 de diciembre de 2026, 4:00 p. m.**, boda civil y celebración en la casa del novio, Álvaro Obregón #54, Carboneras, Tepezalá, Aguascalientes. La invitación anuncia la boda civil y la celebración.
 
 ## Requisitos
 
@@ -51,14 +51,14 @@ src/config/wedding.ts
 
 La cuenta regresiva usa `dateISO`. Si cambia la fecha, actualiza también `weekday`, `dateLabel`, `dateShort`, `cardDay`, `cardMonth`, `cardYear`, `cardDateLabel`, `yearRoman` y `timeLabel`.
 
-### Lugar y celebración
+### Lugar y boda civil
 
 - `venue`: `name`, `address`, `city`, `mapUrl`, `calendarUrl` y `note`.
-- `celebration`: `label` y `time` de la celebración.
+- `celebration`: `label` y `time` de la boda civil.
 - `schedule`: lista de `{ time, label }` para el itinerario.
 - `dayNote`: nota que acompaña el itinerario.
 
-`mapUrl` es una búsqueda de Google Maps; reemplázala por la ubicación exacta si hace falta. `calendarUrl` abre Google Calendar con el evento precargado: sus fechas están en UTC (`20261221T230000Z/20261222T040000Z`), así que actualízalas si cambia el horario.
+`mapUrl` es una búsqueda de Google Maps; reemplázala por la ubicación exacta si hace falta. `calendarUrl` abre Google Calendar con el evento precargado: sus fechas están en UTC (`20261221T220000Z/20261222T030000Z`), así que actualízalas si cambia el horario.
 
 ### Portada tipo sobre
 

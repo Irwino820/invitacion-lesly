@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="hero__grid">
           <div className="hero__lead">
             <p className="section-tag hero__tag" data-hero>
-              Nos casamos
+              Nos casamos por el civil
             </p>
 
             <h1
@@ -135,7 +135,7 @@ const Hero = () => {
             <span>Desliza para descubrir</span>
           </a>
           <span className="hero__footer-note">
-            Celebración · {wedding.cityShort}
+            {celebration.label} · {wedding.cityShort}
           </span>
         </div>
       </div>

@@ -15,8 +15,8 @@ const Location = () => {
             </h2>
           </div>
           <p className="place__intro" data-reveal>
-            La celebración será en la casa del novio, en Carboneras, Tepezalá.
-            Ahí te esperamos para compartir este día con nosotros.
+            Nuestra boda civil será en la casa del novio, en Carboneras,
+            Tepezalá. Ahí te esperamos para compartir este día con nosotros.
           </p>
         </header>
 
@@ -39,7 +39,7 @@ const Location = () => {
 
           <div className="place__info">
             <div data-reveal>
-              <span className="place__label">Celebración</span>
+              <span className="place__label">{celebration.label}</span>
               <p className="place__house">{venue.name}</p>
               <h3 className="place__venue">{venue.address}</h3>
               <p className="place__address">{venue.city}</p>

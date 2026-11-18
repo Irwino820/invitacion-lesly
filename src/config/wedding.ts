@@ -97,7 +97,7 @@ export const weddingConfig: WeddingConfig = {
     monogram: 'L & R',
   },
   wedding: {
-    dateISO: '2026-12-21T17:00:00-06:00',
+    dateISO: '2026-12-21T16:00:00-06:00',
     weekday: 'Lunes',
     dateLabel: '21 de diciembre de 2026',
     dateShort: '21 · 12 · 26',
@@ -106,7 +106,7 @@ export const weddingConfig: WeddingConfig = {
     cardYear: '2026',
     cardDateLabel: '21 · Diciembre · 2026',
     yearRoman: 'MMXXVI',
-    timeLabel: '5:00 p.\u00A0m.',
+    timeLabel: '4:00 p.\u00A0m.',
     city: 'Carboneras, Tepezalá, Aguascalientes',
     cityShort: 'Carboneras, Tepezalá',
     quote:
@@ -114,7 +114,7 @@ export const weddingConfig: WeddingConfig = {
     quoteSupport:
       'Porque el amor también se escribe en lo cotidiano: en las mañanas compartidas, en las risas sin motivo y en los días que elegimos quedarnos. Este 21 de diciembre abrimos un capítulo nuevo, y queremos celebrarlo contigo.',
     intro:
-      'Con la bendición de nuestras familias, tenemos el honor de invitarte a celebrar el comienzo de nuestra vida juntos.',
+      'Con la bendición de nuestras familias, tenemos el honor de invitarte a celebrar nuestra boda civil y el comienzo de nuestra vida juntos.',
   },
   venue: {
     name: 'Casa del novio',
@@ -123,7 +123,7 @@ export const weddingConfig: WeddingConfig = {
     mapUrl:
       'https://www.google.com/maps/search/?api=1&query=Alvaro+Obregon+54+Carboneras+Tepezala+Aguascalientes',
     calendarUrl:
-      'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Celebraci%C3%B3n%20de%20la%20boda%20de%20Lesly%20%26%20Rogelio&dates=20261221T230000Z/20261222T040000Z&details=Celebraci%C3%B3n%205%3A00%20p.%20m.%20%C2%B7%20Casa%20del%20novio&location=%C3%81lvaro%20Obreg%C3%B3n%2054%2C%20Carboneras%2C%20Tepezal%C3%A1%2C%20Aguascalientes',
+      'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda%20civil%20de%20Lesly%20%26%20Rogelio&dates=20261221T220000Z/20261222T030000Z&details=Boda%20civil%204%3A00%20p.%20m.%20%C2%B7%20Casa%20del%20novio&location=%C3%81lvaro%20Obreg%C3%B3n%2054%2C%20Carboneras%2C%20Tepezal%C3%A1%2C%20Aguascalientes',
     note: 'La casa está sobre la calle Álvaro Obregón, en el corazón de Carboneras. Si necesitas apoyo con la ubicación, escríbenos.',
   },
   audio: {
@@ -132,14 +132,15 @@ export const weddingConfig: WeddingConfig = {
     artist: 'Rubén Montañez',
   },
   celebration: {
-    label: 'Celebración',
-    time: '5:00 p.\u00A0m.',
+    label: 'Boda civil',
+    time: '4:00 p.\u00A0m.',
   },
   schedule: [
-    { time: '4:50', label: 'Llegada' },
-    { time: '5:00', label: 'Celebración' },
+    { time: '3:50', label: 'Llegada' },
+    { time: '4:00', label: 'Boda civil' },
   ],
-  dayNote: 'Te pedimos llegar unos minutos antes para recibirte con calma.',
+  dayNote:
+    'Te pedimos llegar unos minutos antes: la ceremonia civil comenzará puntual.',
   story: [
     {
       year: '2018',
@@ -169,8 +170,8 @@ export const weddingConfig: WeddingConfig = {
     text: 'Su presencia es nuestro mayor regalo. Si desean tener un detalle, encontrarán un buzón de sobres en la celebración.',
   },
   seo: {
-    title: 'Lesly & Rogelio · Nuestra boda',
+    title: 'Lesly & Rogelio · Boda civil',
     description:
-      'Lesly y Rogelio te invitan a celebrar su boda el lunes 21 de diciembre de 2026 a las 5:00 p.\u00A0m. en Carboneras, Tepezalá, Aguascalientes.',
+      'Lesly y Rogelio te invitan a celebrar su boda civil el lunes 21 de diciembre de 2026 a las 4:00 p.\u00A0m. en Carboneras, Tepezalá, Aguascalientes.',
   },
 };
